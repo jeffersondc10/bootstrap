@@ -1,0 +1,32 @@
+
+body{
+background-color: #8A0808;
+}
+
+.container{
+  background-color: white;
+}
+
+.navbar{
+  background-color:  #FAAC58;
+}
+
+.activ{
+  width: 184px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.redes{
+  padding-top: 100px;
+  padding-right: 50px;
+}
+
+.glyphicon-user{
+  font-size: 70px;
+}
+
+p{
+  text-align: justify;
+}
