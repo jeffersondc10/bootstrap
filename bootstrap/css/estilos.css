@@ -24,9 +24,33 @@ background-color: #8A0808;
 }
 
 .glyphicon-user{
-  font-size: 70px;
+  font-size: 50px;
+  padding-top: 20px;
 }
 
 p{
   text-align: justify;
+}
+
+img{
+  padding-top: 70px;
+}
+
+@media (max-width:770px){
+  .activ{
+    width: 300px;
+    text-align: center;
+    }
+
+  img{
+    padding-top: 40px;
+  }
+
+  .list-group{
+    display:none;
+  }
+
+  .has-feedback{
+    display: none;
+  }
 }
