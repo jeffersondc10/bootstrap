@@ -1,7 +1,53 @@
-.logo-img{
-  width: 30%;
+body{
+  background: url("../img/comedor.jpg") fixed;
+  background-repeat: no-repeat;
+
 }
 
-img{
-  max-height: 129px;
+#contenedor{
+  background-color: rgba(134, 175, 200, 0.5);
+}
+
+.header{
+  border-right: 1px solid white;
+}
+
+.titulo {
+ font-family: cursive;
+ color: #fff;
+}
+
+#slogan{
+  text-align: right;
+  color: #F2F2F2;
+}
+
+.callout{
+  background-color: #CED8F6;
+}
+
+.favoritos{
+  height: 120px;
+}
+
+li{
+  list-style: none;
+}
+
+.hollow{
+  margin: 0px auto;
+  display: block;
+}
+
+p{
+  text-align: justify;
+}
+
+h5{
+  color: #FF0040;
+}
+
+b{
+  color: #FF0040;
+  font-size: 12px;
 }

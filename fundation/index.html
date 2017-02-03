@@ -2,124 +2,138 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The cooking</title>
     <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/home.css" media="screen" charset="utf-8">
+    <style type="text/css">
+      .search{
+        background: url('img/search.png') no-repeat right center ;
+        background-size: 15px;
+      }
+    </style>
   </head>
   <body>
     <div class="row">
-      <div class="small-3 column medium-3 column large-3 column">
-        <h1>The cooking</h1>
-        <p>Aprende y concina</p>
-      </div>
-    </div>
-    <hr>
-    <div class="row">
-      <div class="small-3 column medium-3 column large-3 column">
-        <div class="callout primary">
-          <div class="row column">
-            <label for="buscar">
-            <input type="text" id="buscar" placeholder="buscar"/><i class="fi-magnifying-glass"></i>
-            </label>
-          </div>
-          <a href="#" class="button hollow expanded">Inicio</a>
-          <a href="#" class="button hollow expanded">Mi plato perfecto</a>
-          <a href="#" class="button hollow expanded">Mis recetas</a>
-        </div>
-        <h4>Favoritos:</h4>
+      <div id="contenedor" class="small-12 column medium-12 column large-12 column" >
         <div class="row">
-          <div class="small-4 column medium-4 column large-4 column">
-            <img src="img/postre.jpg" alt="postre" class="thumbnail">
-          </div>
-          <div class="small-4 column medium-4 column large-4 column">
-            <img src="img/plato_carne.jpg" alt="carne" class="thumbnail">
-          </div>
-          <div class="small-4 column medium-4 column large-4 column">
-            <img src="img/ensalada.jpg" alt="ensalada" class="thumbnail">
+          <div class="medium-3 column large-3 column header hide-for-small-only">
+            <h3 class="titulo">The cooking</h3>
+            <p id="slogan">Aprende y concina</p>
           </div>
         </div>
-        <div class="row">
-          <div class="small-4 column medium-4 column large-4 column">
-            <img src="img/helado.jpg" alt="helado" class="thumbnail">
+        <hr>
+        <div class="row" >
+          <div class="medium-3 column large-3 column hide-for-small-only">
+            <div class="callout">
+              <div class="row column"><br>
+                <label for="buscar">
+                <input type="text" id="buscar" placeholder="buscar" class="search" autofocus/>
+                </label>
+              </div>
+              <a href="#" class="button hollow expanded">Inicio</a>
+              <a href="#" class="button hollow expanded">Mi plato perfecto</a>
+              <a href="#" class="button hollow expanded">Mis recetas</a><br>
+              <h5>Favoritos:</h5>
+              <div class="row">
+                <div class="small-4 column medium-4 column large-4 column">
+                  <img src="img/postre.jpg" alt="postre" class="thumbnail favoritos">
+                </div>
+                <div class="small-4 column medium-4 column large-4 column">
+                  <img src="img/plato_carne.jpg" alt="carne" class="thumbnail favoritos">
+                </div>
+                <div class="small-4 column medium-4 column large-4 column">
+                  <img src="img/ensalada.jpg" alt="ensalada" class="thumbnail favoritos">
+                </div>
+            </div>
+            <div class="row">
+              <div class="small-4 column medium-4 column large-4 column">
+                <img src="img/helado.jpg" alt="helado" class="thumbnail favoritos">
+              </div>
+              <div class="small-4 column medium-4 column large-4 column">
+                <img src="img/lasaña.jpg" alt="lasaña" class="thumbnail favoritos">
+              </div>
+              <div class="small-4 column medium-4 column large-4 column">
+                <img src="img/waffles.jpg" alt="waffles" class="thumbnail favoritos">
+              </div>
+            </div>
+            <h5>Historial:</h5>
+            <ul class="lista">
+              <li><a href="#">Pollo Gratinado</a></li><br>
+              <li><a href="#">Chuleta de cerdo BBQ</a></li><br>
+              <li><a href="#">Waffles con helado</a></li><br>
+              <li><a href="#">Frijoles rancheros</a></li><br>
+              <li><a href="#">Arroz con huevo</a></li><br>
+            </ul>
+            </div>
+
           </div>
-          <div class="small-4 column medium-4 column large-4 column">
-            <img src="img/lasaña.jpg" alt="lasaña" class="thumbnail">
-          </div>
-          <div class="small-4 column medium-4 column large-4 column">
-            <img src="img/waffles.jpg" alt="waffles" class="thumbnail">
+          <div class="small-12 column medium-9 column large-9 column">
+            <div class="callout primary">
+              <div class="row column">
+                <h3>Pasta boloñesa</h3>
+                <b>Enero 30 de 2017</b>
+                <img src="img/pasta_boloñesa.jpg" alt="pasta" width="100%" class="thumbnail">
+                <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in culpa qui officia deserunt mollit anim id est laborum.  Donec vitae diam commodo, ultrices elit vitae, pellentesque augue.
+                  Pellentesque rhoncus massa non iaculis feugiat. Suspendisse bibendum mi a metus aliquet congue. Sed blandit leo massa,
+                  vitae tincidunt erat aliquam sit amet. Aenean scelerisque faucibus libero, in pharetra nisi interdum ullamcorper.
+                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pharetra tempus dolor,
+                  non rutrum enim interdum ac
+                </p>
+              </div>
+              <hr>
+              <div class="row column">
+                <label for="comentario">Escribe un comentario
+                  <textarea name="name" id="comentario"></textarea>
+                </label>
+                <button type="submit" name="publicar" class="button">Publicar <i class="step fi-pencil"></i></button>
+              </div>
+              <div class="callout primary">
+                <p><img src="img/usuario1.jpg" alt="usuario1" width="10%">  <strong>Fernei4816:</strong>   Muchas gracias!!</p>
+              </div>
+              <div class="callout primary">
+                <p><img src="img/usuario2.jpg" alt="usuario2" width="10%">  <strong>Arturito191:</strong>   Tengo una pregunta. Que cantidad de pastas se debe utlizar para 20 personas?</p>
+              </div>
+              <div class="callout primary">
+                <p><img src="img/usuario3.jpg" alt="usuario3" width="10%">  <strong>Mluisa12:</strong>   Excelente, me pondre manos a la obra</p>
+              </div>
+            </div>
+            <div class="callout primary">
+              <div class="row column">
+                <h3>Como preparar un coctel exquisito</h3>
+                <b>Febrero 2 de 2017</b>
+                <img src="img/coctel.jpg" alt="coctel" width="100%" class="thumbnail">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
+                  dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                  sunt in culpa qui officia deserunt mollit anim id est laborum.  Donec vitae diam commodo, ultrices elit vitae, pellentesque augue.
+                  Pellentesque rhoncus massa non iaculis feugiat. Suspendisse bibendum mi a metus aliquet congue. Sed blandit leo massa,
+                  vitae tincidunt erat aliquam sit amet. Aenean scelerisque faucibus libero, in pharetra nisi interdum ullamcorper.
+                  Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pharetra tempus dolor,
+                  non rutrum enim interdum ac
+                </p>
+              </div>
+              <hr>
+              <div class="row column">
+                <label for="comentario">Escribe un comentario
+                  <textarea name="name" id="comentario"></textarea>
+                </label>
+                <button type="submit" name="publicar" class="button">Publicar <i class="step fi-pencil"></i></button>
+              </div>
+              <div class="callout primary">
+                <p><img src="img/usuario2.jpg" alt="usuario2" width="10%">  <strong>Arturito191:</strong>   Ya lo hice me quedo de rechupete, muchas gracias</p>
+              </div>
+            </div>
           </div>
         </div>
-        <h4>Historial:</h4>
-        <ul>
-          <li><a href="#">Pollo Gratinado</a></li><br>
-          <li><a href="#">Chuleta de cerdo BBQ</a></li><br>
-          <li><a href="#">Waffles con helado</a></li><br>
-          <li><a href="#">Frijoles rancheros</a>></li><br>
-          <li><a href="#">Arroz con huevo</a></li><br>
-        </ul>
       </div>
-      <div class="small-9 column medium-9 column large-9 column">
-        <div class="callout primary">
-          <div class="row column">
-            <h3>Pasta boloñesa</h3>
-            <img src="img/pasta_boloñesa.jpg" alt="pasta" width="100%" class="thumbnail">
-            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.  Donec vitae diam commodo, ultrices elit vitae, pellentesque augue.
-              Pellentesque rhoncus massa non iaculis feugiat. Suspendisse bibendum mi a metus aliquet congue. Sed blandit leo massa,
-              vitae tincidunt erat aliquam sit amet. Aenean scelerisque faucibus libero, in pharetra nisi interdum ullamcorper.
-              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pharetra tempus dolor,
-              non rutrum enim interdum ac
-            </p>
-          </div>
-          <hr>
-          <div class="row column">
-            <label for="comentario">Escribe un comentario
-              <textarea name="name" id="comentario"></textarea>
-            </label>
-            <button type="submit" name="publicar" class="button">Publicar <i class="step fi-pencil"></i></button>
-          </div>
-          <div class="callout primary">
-            <p><img src="img/usuario1.jpg" alt="usuario1" width="10%">  Fernei4816:   Muchas gracias!!</p>
-          </div>
-          <div class="callout primary">
-            <p><img src="img/usuario2.jpg" alt="usuario2" width="10%">  Arturito191:   Tengo una pregunta. Que cantidad de pastas se debe utlizar para 20 personas?</p>
-          </div>
-          <div class="callout primary">
-            <p><img src="img/usuario3.jpg" alt="usuario3" width="10%">  Mluisa12:   Excelente, me pondre manos a la obra</p>
-          </div>
-        </div>
-        <div class="callout primary">
-          <div class="row column">
-            <h3>Pasta boloñesa</h3>
-            <img src="img/coctel.jpg" alt="coctel" width="100%" class="thumbnail">
-            <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-              dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.  Donec vitae diam commodo, ultrices elit vitae, pellentesque augue.
-              Pellentesque rhoncus massa non iaculis feugiat. Suspendisse bibendum mi a metus aliquet congue. Sed blandit leo massa,
-              vitae tincidunt erat aliquam sit amet. Aenean scelerisque faucibus libero, in pharetra nisi interdum ullamcorper.
-              Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus pharetra tempus dolor,
-              non rutrum enim interdum ac
-            </p>
-          </div>
-          <hr>
-          <div class="row column">
-            <label for="comentario">Escribe un comentario
-              <textarea name="name" id="comentario"></textarea>
-            </label>
-            <button type="submit" name="publicar" class="button">Publicar <i class="step fi-pencil"></i></button>
-          </div>
-          <div class="callout primary">
-            <p><img src="img/usuario2.jpg" alt="usuario2" width="10%">  Arturito191:   Ya lo hice me quedo de rechupete, muchas gracias</p>
-          </div>
-        </div>
-      </div>
+
     </div>
-
-
 
     <script src="js/jquery.js"></script>
     <script src="js/what-input.js"></script>
