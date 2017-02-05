@@ -1,0 +1,74 @@
+body{
+  background: url(../img/castillo.jpg) fixed;
+  background-repeat: no-repeat;
+}
+
+.card-image1{
+  padding: 20px;
+}
+
+.logo{
+  border-radius: 10px;
+  height: 100px;
+}
+
+.fixed-action-btn-horizontal{
+  padding-top: 20px;
+}
+
+.slogan{
+  font-size: 30px;
+  font-family: cursive;
+  color: white;
+}
+
+.redes{
+  border-radius: 10px;
+}
+
+#san_andres{
+  height: 400px;
+}
+
+#ejecafetero{
+  height: 500px;
+}
+
+#jardin{
+  height: 200px;
+}
+
+.float{
+  padding: 0.5em;
+}
+
+h5{
+  padding-top: 0.5em;
+}
+
+h6{
+  padding-top: 0.5em;
+  color: white;
+}
+
+.justify{
+  text-align: justify;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.prefix{
+  color: white;
+}
+
+.btn-medium{
+  color: blue;
+}
+
+.blue{
+  color:white;
+}
+
+.hoverable{
+  padding: 10px;
+}
